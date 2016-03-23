@@ -574,7 +574,7 @@ void WiFiManager::handleWifiSave() {
   }
 
   String page = FPSTR(HTTP_HEAD);
-  page.replace("{v}", "Credentials Saved");
+  page.replace("{v}", "Configuration enregistrée");
   page += FPSTR(HTTP_SCRIPT);
   page += FPSTR(HTTP_STYLE);
   page += _customHeadElement;
